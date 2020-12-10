@@ -10,7 +10,7 @@ of motor insurance relates to geographic location.
 ## Dataset 1 - quote_prices.csv
 One million motor insurance quote prices with the postcode. Prices are the cheapest price offered on a price comparison website.
 
-######Column Description:
+###### Column Description:
 - premium_price: The total premium price for the quote
 - postcode: The postcode for the quote
 
@@ -18,7 +18,7 @@ One million motor insurance quote prices with the postcode. Prices are the cheap
 Various publicly available data points for each postcode sector. These may correlate with the
 premium price in various ways.
 
-######Column Description:
+###### Column Description:
 - postcode_sector: The postcode sector
 - relative_area: The relative area in km2of the sector
 - population_density: The mean population density of the sector 
@@ -34,7 +34,7 @@ premium price in various ways.
 Additional data that could relate to premium prices that is only available at the local authority
 level (less granular than postcode sector). It has been mapped to postcode sector appropriately.
 
-######Column Description:
+###### Column Description:
 - postcode_sector: The postcode sector
 - road_usage: The road usage (in million vehicle miles) for the local authority that the postcode sector is in 
 - total_offences: The total number of crimes in 2019 for the
